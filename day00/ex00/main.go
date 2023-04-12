@@ -77,7 +77,6 @@ func main() {
 	var slice = make([]int, 0, 20)
 	var tmp int
 	var err error
-	fmt.Println("hello")
 
 	for _, err = fmt.Scanln(&tmp); err != io.EOF; _, err = fmt.Scanln(&tmp) {
 		if tmp < -100000 || tmp > 100000 {
